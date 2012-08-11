@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\CommonLib.csproj", "{6867B102-C514-451D-81FA-D2034F1CA916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{3B08F5FE-6A0F-470A-98D9-E2DBE14FF575}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{1E568BFC-CB87-436A-820D-59FF5BB1E4A4}"
+	ProjectSection(SolutionItems) = preProject
+		lib\ConsoleLib.dll = lib\ConsoleLib.dll
+		lib\IKVM.OpenJDK.Beans.dll = lib\IKVM.OpenJDK.Beans.dll
+		lib\IKVM.OpenJDK.Charsets.dll = lib\IKVM.OpenJDK.Charsets.dll
+		lib\IKVM.OpenJDK.Corba.dll = lib\IKVM.OpenJDK.Corba.dll
+		lib\IKVM.OpenJDK.Core.dll = lib\IKVM.OpenJDK.Core.dll
+		lib\IKVM.OpenJDK.Jdbc.dll = lib\IKVM.OpenJDK.Jdbc.dll
+		lib\IKVM.OpenJDK.Management.dll = lib\IKVM.OpenJDK.Management.dll
+		lib\IKVM.OpenJDK.Media.dll = lib\IKVM.OpenJDK.Media.dll
+		lib\IKVM.OpenJDK.Misc.dll = lib\IKVM.OpenJDK.Misc.dll
+		lib\IKVM.OpenJDK.Naming.dll = lib\IKVM.OpenJDK.Naming.dll
+		lib\IKVM.OpenJDK.Remoting.dll = lib\IKVM.OpenJDK.Remoting.dll
+		lib\IKVM.OpenJDK.Security.dll = lib\IKVM.OpenJDK.Security.dll
+		lib\IKVM.OpenJDK.SwingAWT.dll = lib\IKVM.OpenJDK.SwingAWT.dll
+		lib\IKVM.OpenJDK.Text.dll = lib\IKVM.OpenJDK.Text.dll
+		lib\IKVM.OpenJDK.Tools.dll = lib\IKVM.OpenJDK.Tools.dll
+		lib\IKVM.OpenJDK.Util.dll = lib\IKVM.OpenJDK.Util.dll
+		lib\IKVM.OpenJDK.XML.API.dll = lib\IKVM.OpenJDK.XML.API.dll
+		lib\IKVM.OpenJDK.XML.Bind.dll = lib\IKVM.OpenJDK.XML.Bind.dll
+		lib\IKVM.OpenJDK.XML.Crypto.dll = lib\IKVM.OpenJDK.XML.Crypto.dll
+		lib\IKVM.OpenJDK.XML.Parse.dll = lib\IKVM.OpenJDK.XML.Parse.dll
+		lib\IKVM.OpenJDK.XML.Transform.dll = lib\IKVM.OpenJDK.XML.Transform.dll
+		lib\IKVM.OpenJDK.XML.WebServices.dll = lib\IKVM.OpenJDK.XML.WebServices.dll
+		lib\IKVM.OpenJDK.XML.XPath.dll = lib\IKVM.OpenJDK.XML.XPath.dll
+		lib\IKVM.Reflection.dll = lib\IKVM.Reflection.dll
+		lib\IKVM.Runtime.dll = lib\IKVM.Runtime.dll
+		lib\Ionic.Zip.dll = lib\Ionic.Zip.dll
+		lib\OpenNlp.dll = lib\OpenNlp.dll
+		lib\SgmlReaderDll.dll = lib\SgmlReaderDll.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C07DDE90-92D7-4D17-A68B-6CE0D03EAD58}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "res", "res", "{9A719C3E-554F-4A70-BDB4-6E931B370DF2}"
+	ProjectSection(SolutionItems) = preProject
+		res\en-chunker.bin = res\en-chunker.bin
+		res\en-ner-date.bin = res\en-ner-date.bin
+		res\en-ner-location.bin = res\en-ner-location.bin
+		res\en-ner-money.bin = res\en-ner-money.bin
+		res\en-ner-organization.bin = res\en-ner-organization.bin
+		res\en-ner-percentage.bin = res\en-ner-percentage.bin
+		res\en-ner-person.bin = res\en-ner-person.bin
+		res\en-ner-time.bin = res\en-ner-time.bin
+		res\en-pos-maxent-fix.bin = res\en-pos-maxent-fix.bin
+		res\en-sent.bin = res\en-sent.bin
+		res\en-token.bin = res\en-token.bin
+		res\wn.zip = res\wn.zip
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prp_models", "prp_models", "{EB80FF04-2617-4120-834C-168B04526F5E}"
+	ProjectSection(SolutionItems) = preProject
+		prp_models\about.train.model = prp_models\about.train.model
+		prp_models\at.train.model = prp_models\at.train.model
+		prp_models\by.train.model = prp_models\by.train.model
+		prp_models\for.train.model = prp_models\for.train.model
+		prp_models\from.train.model = prp_models\from.train.model
+		prp_models\in.train.model = prp_models\in.train.model
+		prp_models\of.train.model = prp_models\of.train.model
+		prp_models\on.train.model = prp_models\on.train.model
+		prp_models\to.train.model = prp_models\to.train.model
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+		Svn-Managed = True
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B08F5FE-6A0F-470A-98D9-E2DBE14FF575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B08F5FE-6A0F-470A-98D9-E2DBE14FF575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B08F5FE-6A0F-470A-98D9-E2DBE14FF575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B08F5FE-6A0F-470A-98D9-E2DBE14FF575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6867B102-C514-451D-81FA-D2034F1CA916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6867B102-C514-451D-81FA-D2034F1CA916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6867B102-C514-451D-81FA-D2034F1CA916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6867B102-C514-451D-81FA-D2034F1CA916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
