@@ -1,0 +1,20 @@
+{
+
+    "corpus": {
+    	"sentence_tokenize_model" : "tokenizers/punkt/english.pickle"
+    },
+
+    "default": {
+        "parser" : "stanford"
+    },
+
+    "stanford": {
+	"model" :  "/data/tool/stanford-parser/2.0.2/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz",
+	"jar" :  "/data/tool/stanford-parser/2.0.2/stanford-parser.jar" 
+    },
+
+    "ssgnc": {
+	"index": "/data/google-ngram-en/index/"
+    }
+}
+
