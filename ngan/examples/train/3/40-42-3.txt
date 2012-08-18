@@ -1,0 +1,10 @@
+First I don't know <prp crr="about"></prp> gardening.
+I can't plant flowers and <prp crr="">to</prp> say <n_num crr="flowers'">flower's</n_num> <n_num crr="names" ch="2">name</n_num>.
+I know <n_num crr="flowers'">flower's</n_num> <n_num crr="names" ch="1">name</n_num> "rose", "<n_lxc crr="sunflower">himawari</n_lxc>", "<n_lxc crr="morning glory">asagao</n_lxc>", "tyurip" and "<n_lxc crr="dandelion">tanpopo</n_lxc>".
+But I have a friend <rel crr="who">that</rel> knows <prp crr="about"></prp> gardening very well.
+He works <prp crr="at">to</prp> <at crr="a">the</at> flowershop.
+He loves flowers.
+Flowers <v_agr crr="are">is</v_agr> very beautiful.
+I think that <pn crr="they">it</pn> <v_o crr="relax"><v_tns crr="are relaxed"><v_agr crr="were relaxed" ch="1">was relaxed</v_agr></v_tns></v_o> <prp crr="" ch="2">to</prp> people.
+So I think that I know about flowers.
+I want to be <at crr="a"></at> <n_o crr="flower">flower's</n_o> pro...it's a joke.

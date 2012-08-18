@@ -1,0 +1,13 @@
+My <n_num crr="hobbies">hobby</n_num> <v_agr crr="are" ch="1">is</v_agr> to play kendo, to play computer games, and to read books.
+I had practiced <pn crr="it"></pn> for ten years.
+I like to play kendo, because I can <prp crr="">to</prp> enjoy it.
+But kendo is very <aj crr="smelly">smell</aj>.
+I like to play <n_num crr="games">game</n_num>.
+Especially I like "FF", "FE",and "CT".
+They are very good games!
+I love to read books.
+I read two books every day.
+Books give <aj crr="much">many</aj> knowledge to us.
+But books are expensive.
+So I <v_tns crr="will run">run</v_tns> out my money soon.
+Oh, My God!!

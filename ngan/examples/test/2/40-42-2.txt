@@ -1,0 +1,13 @@
+I was very happy in this summer vacation.
+Because I like to travel, <con crr="">so</con> I traveled to a lot of places.
+I went to Okayama, Hiroshima, Shiga, Ehime and Tokyo.
+My friends live <prp crr="in"></prp> these places.
+I played with my friends.
+Tokyo is very noisy, but very interesting.
+Shiga's lake is very large.
+Ehime's <n_num crr="oranges">orange</n_num> <v_agr crr="are" ch="1">is</v_agr> very delicious.
+Himeji is very <aj crr="rural">country</aj>, but <prp crr="in"></prp> this place <v_agr crr="live">lives</v_agr> a lot of my friends.
+I had a good time.
+And University students do not have homework.
+So I <v_tns crr="didn't study">do not study</v_tns> in this summer vacation.
+I do not want to study forever!

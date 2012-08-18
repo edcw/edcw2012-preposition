@@ -1,0 +1,62 @@
+#
+# Print features
+#
+#useClassFeature=true
+1.useString=true
+2.useString=true
+3.useString=true
+4.useString=true
+5.useString=true
+6.useString=true
+7.useString=true
+8.useString=true
+9.useString=true
+10.useString=true
+11.useString=true
+12.useString=true
+13.useString=true
+14.useString=true
+15.useString=true
+16.useString=true
+17.useString=true
+18.useString=true
+19.useString=true
+20.useString=true
+21.useString=true
+22.useString=true
+23.useString=true
+
+
+#l_left2tok=	l_left2pos=	l_right2tok=cooked_lunch	l_right2pos=VBD_NN	l_pv=null	l_pn=null	
+#l_fn=null	p1_head=cooked	p2_pos=VBN	p3_compTok=null	p4_compPos=null	p5_headRel=nsubj	p6_compRel=null	
+#p11_parent=null	p12_grand=null	p13_left=null	p14_right=null	l_pnl_fn=null	l_pvl_pnl_fn=null	
+#p1_headp3_compTok=null	p2_posp4_compPos=null	p2_posp3_compTok=null	p1_headp4_compPos=null
+
+
+printClassifier=HighWeight
+printClassifierParam=200
+printTo=classifier.txt
+
+#
+# Mapping
+#
+goldAnswerColumn=0
+displayedColumn=1
+
+#
+# Optimization
+#
+intern=true
+sigma=50
+useQN=true
+QNsize=15
+tolerance=1e-4
+
+serializeTo=./native-model.bin
+printTo=./native-model.txt
+
+#
+# Training input
+#
+trainFile=./native-instances.train
+testFile=./native-instances.train
