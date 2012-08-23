@@ -2,7 +2,56 @@
 
 CorrCha is the English correction system.
 
+## Notes from organizer
 
+(1) System hierarchy 
+
+The top directory should be named as "corrcha".
+If there are some reasons you are not able to do so,
+run the following command in the top directory:
+> ln -s . corrcha
+
+(2) The model files of Stanford Parser
+
+The model files should be unpacked under the tool
+directory:
+> pwd
+/path/to/corrcha
+
+> cd tool
+> tar xvzf /path/to/stanford-parser-2012-07-09.tgz
+> cd stanford-parser-2012-07-09
+> unzip stanford-parser-2012-07-09-models.jar
+> cd ../..
+> vi setting.json
+
+Then, modify setting.json to point to the paths
+you unpacked these files.
+
+(3) PYTHONPATH
+
+PYTHONPATH should include the top directory of corrcha
+and the library path of other helper libraries:
+
+e.g.
+> unzip lzhang10-maxent-a139430.zip
+> cd lzhang10-maxent-a139430
+> ./configure --prefix ${HOME}
+> make
+> make install
+> cd python
+> python setup.py build
+> python setup.py install --home=${HOME}
+> PYTHONPATH=${PYTHONPATH}:${HOME}/lib/python
+> export PYTHONPATH
+> echo $PYTHONPATH
+/path/to/corrcha:/home/foobar/lib/python
+
+(4) Classpath Loader
+
+Please grab the ClassPathModifier.java from the link below:
+
+http://koders.com/java/fid7756E777BDFB207121A64781D1D59A1B9A77C32E.aspx
 
 ## System requirement
 
