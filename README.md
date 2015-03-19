@@ -4,6 +4,6 @@ This project maintains source codes submitted for preposition track of the Error
 
 This repository contains three branches corresponding to the submitted systems. Please switch to the branch you would like to see.
 
-* NAIST
-* ngan
-* ototake
+* [NAIST](https://github.com/edcw/edcw2012-preposition/tree/NAIST)
+* [ngan](https://github.com/edcw/edcw2012-preposition/tree/ngan)
+* [ototake](https://github.com/edcw/edcw2012-preposition/tree/ototake)
